@@ -1,3 +1,4 @@
+/* CSS Style reset */
 *{
   padding: 0;
   margin: 0;
@@ -7,7 +8,7 @@
 }
 body {
   background-color: #F5F5F5;
-  font-family: 'Open Sans', sans-serif;;
+  font-family: 'Open Sans', sans-serif;
 }
 h1{
   font-family: 'Raleway', sans-serif;
@@ -52,6 +53,8 @@ h1{
 #check{
   display: none;
 }
+
+/* Style for desktop Screens 1200 and above */
 @media screen and (min-width: 1200px){
   .list-items{
     display: flex;
@@ -60,6 +63,7 @@ h1{
   }
 }
 
+/* style for menu-icon on smaller screens */
 @media (max-width: 850px){
   .menu-icon{
     display: block;
