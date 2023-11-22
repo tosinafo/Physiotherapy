@@ -62,21 +62,19 @@ span{
 .btn{
   background: linear-gradient(to right, #c9580d, #986D3A);
   box-shadow: 0 20px 50px rgba(0,0,0,.5);
-  padding: 25px 20px;
-  font-size: 24px;
+  padding: 20px 15px;
+  font-size: 18px;
   color: #F5F5F5;
-  font-weight: 500;
+  font-weight: 600;
   border: none;
-
-  
   font-family: 'Open Sans', sans-serif;
   transition: 0.2ms;
 }
 .btn:hover{
   cursor: pointer;
   background: transparent;
-  color:#986D3A;
-  border: solid #986D3A;
+  color:#F5F5F5;
+  border: 2px solid #F5F5F5;
 
   
 }
