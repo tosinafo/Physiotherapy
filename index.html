@@ -7,7 +7,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Raleway:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <link rel="stylesheet" href="style.css">
+  
 
 </head>
 <body>
@@ -94,20 +96,129 @@
             <a href="#"><i class="ri-links-fill"></i></a>
           </div>
         </div>
-        
-
-       
       </div>
 
     </div>
- 
     <a href="#" class="ctas-button">Learn More</a>
 
-    
-    
   </article>
 
+  <section class="testimonial">
+    <div class="container-testimonial">
+      <div class="testi">
+        <div class="head">
+          <h2>Testimonial</h2>
+          <p>See what people are saying..</p>
+        </div>
+        <div class="body-testimonial swiper">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <div class="wrapper-t">
+                <div class="thumbnail">
+                  <img src="images/Frame 6.png" alt="">
+                </div>
+                <div class="aside-testi">
+                  <p>"I've been struggling with chronic pain for years, and Ascent
+                    Physiotherapy provided me with effective treatment. The therapists
+                    were attentive, and the personalized approach made a significant
+                    difference in my daily life. I'm grateful for their expertise."</p>
+                  <div class="name">
+                    <h4>Jacob Malik</h4>
+                    <p>Artist</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="wrapper-t">
+                <div class="thumbnail">
+                  <img src="images/Frame 7.png" alt="Client Photo">
+                </div>
+                <div class="aside-testi">
+                  <p>
+                    "Ascent Physiotherapy exceeded my expectations. The staff is
+                    professional and friendly. I saw significant improvement in my
+                    mobility after just a few sessions. Thank you for the excellent
+                    service!"
+                  </p>
+                  <div class="name">
+                    <h4>Mary Kate</h4>
+                    <p>Tutor</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="wrapper-t">
+                <div class="thumbnail">
+                  <img src="images/Frame 8.png" alt="Client Photo">
+                </div>
+                <div class="aside-testi">
+                  <p>
+                    "Outstanding service! Ascent Physiotherapy combines skill and
+                    compassion to deliver top-notch care. The team takes the time to
+                    understand your needs and tailors a treatment plan that works. I
+                    highly recommend their services.
+                  </p>
+                  <div class="name">
+                    <h4>Malik Scot</h4>
+                    <p>Technician</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="wrapper-t">
+                <div class="thumbnail">
+                  <img src="images/Frame 9.png" alt="Client Photo">
+                </div>
+                <div class="aside-testi">
+                  <p>
+                    Ascent Physiotherapy is a game-changer! The team goes above and
+                    beyond to provide exceptional care. My experience was positive, and
+                    the results were remarkable. I wouldn't hesitate to recommend them.
+                  </p>
+                  <div class="name">
+                    <h4>Timothy Andrews</h4>
+                    <p>Plumber</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
 
 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+  <script>
+    const swiper = new Swiper('.swiper', {
+      autoHeight: true,
+      loop: true,
+      
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+    });
+  </script>
 </body>
 </html>
