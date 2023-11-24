@@ -219,6 +219,8 @@ h1{
   width: 100%;
   padding: 0 30px;
   margin: 0 auto;
+  box-shadow: 0 10px 10px rgba(0,0,0,.5);
+ 
 }
 .testi{
   max-width: 900px;
@@ -723,6 +725,7 @@ h1{
     box-shadow: 0 10px 10px rgba(0,0,0,.5);
 
   }
+
   .img-about img{
     width: 100%
   }
