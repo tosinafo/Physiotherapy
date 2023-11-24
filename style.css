@@ -539,7 +539,91 @@ h1{
   width: 100%;
   height: 100%;
 }
+.logo-f{
+  width: 100px;
+  margin-bottom: 30px;
 
+}
+
+.row-f{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+footer{
+  width: 100%;
+  background: linear-gradient(to right, #6B9CA2, #986D3A);
+  color: #fff;
+  padding: 100px 0 30px;
+  font-size: 16px;
+  line-height: 20px;
+  bottom: 0;
+
+  
+}
+.col-f{
+  flex-basis: 25%;
+  padding: 10px;
+
+
+}
+.col-f:nth-child(2){
+  flex-basis: 15%;
+
+}
+.col-f h3{
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: underline;
+
+}
+.col-f ul li{
+  list-style: none;
+  margin-bottom: 12px;
+
+}
+.col-f ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+.social-icons-f{
+  
+}
+.social-icons-f .fa-brands{
+  font-size: 20px;
+
+  color: #000;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+
+}
+.col-f p{
+  
+}
+.span-f{
+  color: #A35813;
+  font-size: 18px;
+}
+.hr-f{
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px auto;
+}
+.copyright{
+  text-align: center;
+
+}
 
 
 
@@ -790,15 +874,21 @@ h1{
   grid-gap: 20px;
   margin-top: 20px;
   }
+  footer{
+    width: 100%;
+    background: linear-gradient(to right, #6B9CA2, #986D3A);
+    color: #fff;
+    padding: 100px 0 30px;
+    font-size: 16px;
+    line-height: 20px;
+    bottom: 0;
+  
+    
+  }
  
   
       
   
-}
-@media (max-width: 386px){
-
- 
-
 }
 
 /* style for menu-icon on smaller screens */
@@ -819,6 +909,17 @@ h1{
     display: block;
     margin-top: 30px;
   }
+  .col-f{
+    flex-basis: 100%;
+    
+  
+  
+  }
+  .col-f:nth-child(2){
+    flex-basis: 100%;
+  
+  }
+  
  
   
 
