@@ -645,13 +645,16 @@ form button .fa-solid{
     gap: 2rem;
   }
   
-  
+  .testi_cont_left{
+    padding: 20px;
+  }
   .testi_cont_left h1{
     margin-bottom: 2rem;
     font-size: 2rem;
     font-weight: 600;
     color: #6B9CA2;
     text-align: center;
+    
     
   
   
