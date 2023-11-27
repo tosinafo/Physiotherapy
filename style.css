@@ -19,10 +19,6 @@ header{
 
 /*Hero-section*/
 .hero-container{
-  background-image: url(images/Frame\ 5.png);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -481,6 +477,25 @@ footer{
 
 /*small screens*/
 @media only screen and (max-width: 600px){
+  .hero-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 10px;
+  }
+  .background-image{
+    background-image: url(images/Frame\ 5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+
+  }
+  
   .list-items{
     position: fixed;
     width: 100%;
