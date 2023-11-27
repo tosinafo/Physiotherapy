@@ -477,6 +477,9 @@ footer{
 
 /*small screens*/
 @media only screen and (max-width: 600px){
+  .h1-hero{
+    font-size: 35px;
+  }
   .hero-container{
     height: 100vh;
     display: flex;
@@ -630,6 +633,15 @@ footer{
 
 /*medium screens*/
 @media screen and (max-width: 1000px){
+  .background-image{
+    background-image: url(images/Frame\ 5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+
+  }
   .list-items{
     position: fixed;
     width: 100%;
