@@ -177,11 +177,12 @@ h1{
 }
 .content-services:hover .layer{
   height: 100%;
+  cursor: pointer;
 }
 
 .layer{
   width: 100%;
-  height: 0;
+  height: 100%;
   background: linear-gradient(rgba(0,0,0,0.6), #121313);
   border-radius: 10px;
   position: absolute;
@@ -222,6 +223,90 @@ h1{
   text-align: center;
   
 }
+/*testimonial*/
+
+.testi_container{
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  gap: 8rem;
+}
+
+
+.testi_cont_left h1{
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #6B9CA2;
+  
+
+
+}
+.testi_cont_left p{
+  color: #121313;
+  margin-bottom: 1rem;
+
+}
+.testi_cont_left button{
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, #6B9CA2, #A35813);
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: auto;
+
+}
+.testi_cont_right{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+  
+}
+.card_testi{
+  padding: 2rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  
+}
+.card_testi img{
+  max-width: 75px;
+  border-radius: 100%;
+}
+.card_content_testi{
+  display: flex;
+  gap: 1rem;
+}
+.card_content_testi span i{
+  font-size: 2rem;
+  color: #6B9CA2;
+
+}
+.card_testi_details p{
+  
+  margin-bottom: 1rem;
+
+}
+.card_testi_details h4{
+  text-align: right;
+  color: #6B9CA2;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+
+
+
 
 
 
@@ -371,7 +456,11 @@ footer{
   padding: 10px;
 
 }
-.col-f:nth-child(2){
+.contact-h3-heading{
+  color: #094A72;
+  font-size: 22px;
+}
+.col-f:nth-child(2), .col-f:nth-child(3){
   flex-basis: 15%;
 
 }
@@ -396,14 +485,20 @@ footer{
 
 .social-icons-f .fa-brands{
   font-size: 20px;
-
+  background: #fff;
   color: #000;
   text-align: center;
   line-height: 40px;
   margin-right: 15px;
+  margin-top: 10px;
   cursor: pointer;
   border-radius: 50%;
+  width: 40px;
+  transition: transform 0.3s; /*css transitions*/
 
+}
+.social-icons-f .fa-brands:hover{ /*css transform*/
+  transform: scale(1.1);
 }
 
 .span-f{
@@ -418,13 +513,57 @@ footer{
 }
 .copyright{
   text-align: center;
+  padding: 10px;
 
 }
 .footer-text{
   color: #333232;
   padding: 30px;
 }
+.email-id{
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 0;
+}
+form{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+form .fa-solid{
+  font-size: 18px;
+  
+  
+}
+.book-appoint{
+  margin-top: 10px;
+}
+form input{
+  
+  width: 100%;
+  background: transparent;
+  color: #fff;
+  border: 0;
+  outline: none;
+  padding-left: 10px;
+  
+  
+  
+}
+form button{
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
 
+}
+form button .fa-solid{
+  font-size: 16px;
+  color: #fff;
+}
 
 
 
@@ -491,7 +630,98 @@ footer{
   }
 
     
-
+  .testimonial{
+    min-height: 100vh;
+    display: flex;
+    
+    
+  }
+  .testi_container{
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  
+  .testi_cont_left h1{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #6B9CA2;
+    text-align: center;
+    
+  
+  
+  }
+  .testi_cont_left p{
+    color: #121313;
+    margin-bottom: 1rem;
+  
+  }
+  .testi_cont_left button{
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #6B9CA2, #A35813);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: 15px;
+    
+    
+  
+  }
+  .testi_cont_right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+    
+  }
+  .card_testi{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    
+  }
+  .card_testi img{
+    max-width: 75px;
+    border-radius: 100%;
+  }
+  .card_content_testi{
+    display: flex;
+    gap: 1rem;
+  }
+  .card_content_testi span i{
+    font-size: 2rem;
+    color: #6B9CA2;
+  
+  }
+  .card_testi_details p{
+    
+    margin-bottom: 1rem;
+  
+  }
+  .card_testi_details h4{
+    text-align: right;
+    color: #6B9CA2;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  
+  
   /*contact section*/
  
   /*form*/
@@ -590,6 +820,9 @@ footer{
   .col-f:nth-child(2){
     flex-basis: 100%;
   
+  }
+  .hr-f{
+    display: none;
   }
  
   
@@ -737,6 +970,13 @@ footer{
 
   .img-about img{
     width: 100%
+  }
+
+
+
+  /*testimonial*/
+  .testi_container{
+    gap: 3rem;
   }
   
   /*services*/
@@ -895,6 +1135,7 @@ footer{
 /*Desktop screens*/
 @media screen and (min-width: 1001px){
   .btns{
+    
     margin: auto;
     background: linear-gradient(to right, #c9580d, #986D3A);
     display: block;
@@ -1061,20 +1302,22 @@ footer{
     width: 100%;
     border-radius: 10px;
     display: block;
-    transition: transform 0.5s;
+    transition: transform 0.5s; /*css transition*/
   }
   .content-services:hover img{
-    transform: scale(1.1);
+    transform: scale(1.1); /*css transform*/
     cursor: pointer;
     
   }
   .content-services:hover .layer{
-    height: 100%;
+    height: 0;
+    cursor: pointer;
+    
   }
 
   .layer{
     width: 100%;
-    height: 0;
+    height: 100%;
     background: linear-gradient(rgba(0,0,0,0.6), #121313);
     border-radius: 10px;
     position: absolute;
@@ -1146,6 +1389,94 @@ footer{
   .content-services:hover .layer{
     height: 100%;
   }
+
+/*testimonial*/ 
+  .testimonial{
+    min-height: 100vh;
+    display: flex;
+    
+  }
+  .testi_container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    gap: 8rem;
+  }
+  
+
+  .testi_cont_left h1{
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #6B9CA2;
+    
+
+
+  }
+  .testi_cont_left p{
+    color: #121313;
+    margin-bottom: 1rem;
+
+  }
+  .testi_cont_left button{
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #6B9CA2, #A35813);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+
+  }
+  .testi_cont_right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+    
+  }
+  .card_testi{
+    padding: 2rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    
+  }
+  .card_testi img{
+    max-width: 75px;
+    border-radius: 100%;
+  }
+  .card_content_testi{
+    display: flex;
+    gap: 1rem;
+  }
+  .card_content_testi span i{
+    font-size: 2rem;
+    color: #6B9CA2;
+
+  }
+  .card_testi_details p{
+    
+    margin-bottom: 1rem;
+
+  }
+  .card_testi_details h4{
+    text-align: right;
+    color: #6B9CA2;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+
+
+
   
 
 /*contact section*/
@@ -1221,7 +1552,7 @@ footer{
  
   /*footer*/
   .row-f{
-    width: 85%;
+    width: 80%;
     margin-left: 200px;
     display: flex;
     flex-wrap: wrap;
