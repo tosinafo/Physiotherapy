@@ -18,7 +18,7 @@
   <header>
     <nav class="navbar">
       <div class="logo"><img src="images/ascent  1.svg" alt=""></div>
-      <input type="checkbox" id="check">
+      <input type="checkbox" id="check"> <!--used the checkbox to have that toggle effect on the menu-icon, when clicked on it displays the menu-items on mobile view-->
       <label for="check" class="menu-icon">
         <div class="bar"></div>
         <div class="bar"></div>
@@ -33,18 +33,18 @@
   </header>
   <!-- Hero Section -->
   <section class="hero">
-    <div class="container">
+    <div class="hero-container">
       <div class="herodiv-mobile">
         <h1 class="h1-hero">Your Journey to <span>Better Health</span> Starts Here.</h1>
-        <p class="pclass">Embark on a transformative journey with Ascent Physiotherapy, where our dedicated team of experts is committed to guiding you towards optimal health and wellness</p>
-        <a href="" class="cta-button"><button class="btn">Schedule Appointment</button></a>
+        <a href="#contact-id" class="cta-button"><button class="btn">Schedule Appointment</button></a>
       </div>
       
     </div>
+    <!--Used this herodiv for the desktop because of the backgrond overlay, i wanted the text to be visible-->
     <div class="herodiv">
       <h1 class="h1-hero">Your Journey to <span>Better Health</span> Starts Here.</h1>
-      <p class="pclass">Embark on a transformative journey with Ascent Physiotherapy, where our dedicated team of experts is committed to guiding you towards optimal health and wellness.</p>
-      <a href="#contact-section" class="cta-button" id="schedule-appointment-button"><button class="btn">Schedule Appointment</button></a>
+      <p class="p-hero">Embark on a transformative journey with Ascent Physiotherapy, where our dedicated team of experts is committed to guiding you towards optimal health and wellness.</p>
+      <a href="#contact-id" class="cta-button" id="schedule-appointment-button"><button class="btn">Schedule Appointment</button></a>
     </div>
     
   </section>
@@ -66,13 +66,15 @@
       <div class="img-about"><img src="images/WhatsApp Image 2023-11-22 at 06.56.03.jpeg" alt=""></div>
     </div>
   </section>
-  
+
+
+  <!--Services-->
   <article class="services-container">
    
     <h2 style="text-align: center; color: rgb(24, 24, 24); font-family: 'Raleway', sans-serif; margin-bottom: 16px; ">Our Services</h2>
     <hr>
     <div class="slider-wrapper">
-      <div class="slider">
+      <div class="slider-services">
         <div class ="content-services">
           <img id =slide-1 src="images/img1.png" alt="image of therapy session">
           <div class="layer">
@@ -100,113 +102,23 @@
       </div>
 
     </div>
-    <a href="#" class="ctas-button">Learn More</a>
+    <a href="#"class="ctas-button">
+      LearnMore</a>
 
   </article>
 
-  <section class="testimonial">
-    <div class="container-testimonial">
-      <div class="testi">
-        <div class="head">
-          <h2>Testimonial</h2>
-          <p>See what people are saying..</p>
-        </div>
-        <div class="body-testimonial swiper">
-          <ul class="swiper-wrapper">
-            <li class="swiper-slide">
-              <div class="wrapper-t">
-                <div class="thumbnail">
-                  <img src="images/Frame 6.png" alt="">
-                </div>
-                <div class="aside-testi">
-                  <p>"I've been struggling with chronic pain for years, and Ascent
-                    Physiotherapy provided me with effective treatment. The therapists
-                    were attentive, and the personalized approach made a significant
-                    difference in my daily life. I'm grateful for their expertise."</p>
-                  <div class="name">
-                    <h4>Jacob Malik</h4>
-                    <p>Artist</p>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="swiper-slide">
-              <div class="wrapper-t">
-                <div class="thumbnail">
-                  <img src="images/Frame 7.png" alt="Client Photo">
-                </div>
-                <div class="aside-testi">
-                  <p>
-                    "Ascent Physiotherapy exceeded my expectations. The staff is
-                    professional and friendly. I saw significant improvement in my
-                    mobility after just a few sessions. Thank you for the excellent
-                    service!"
-                  </p>
-                  <div class="name">
-                    <h4>Mary Kate</h4>
-                    <p>Tutor</p>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="swiper-slide">
-              <div class="wrapper-t">
-                <div class="thumbnail">
-                  <img src="images/Frame 8.png" alt="Client Photo">
-                </div>
-                <div class="aside-testi">
-                  <p>
-                    "Outstanding service! Ascent Physiotherapy combines skill and
-                    compassion to deliver top-notch care. The team takes the time to
-                    understand your needs and tailors a treatment plan that works. I
-                    highly recommend their services.
-                  </p>
-                  <div class="name">
-                    <h4>Malik Scot</h4>
-                    <p>Technician</p>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="swiper-slide">
-              <div class="wrapper-t">
-                <div class="thumbnail">
-                  <img src="images/Frame 9.png" alt="Client Photo">
-                </div>
-                <div class="aside-testi">
-                  <p>
-                    Ascent Physiotherapy is a game-changer! The team goes above and
-                    beyond to provide exceptional care. My experience was positive, and
-                    the results were remarkable. I wouldn't hesitate to recommend them.
-                  </p>
-                  <div class="name">
-                    <h4>Timothy Andrews</h4>
-                    <p>Plumber</p>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-          
-          <div class="swiper-pagination"></div>
 
-          <!-- If we need navigation buttons -->
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-        </div>
-      </div>
-    </div>
-    
-  </section>
+  <section>Testimonial</section>
 
 
+<!--Contact section-->
   <h2 style="text-align: center; color: rgb(24, 24, 24); font-family: 'Raleway', sans-serif; margin-bottom: 16px;">Contact us</h2>
-  <section id = "contact-section" class= "contact-class">
-    <div class="contact-us">
-      <div class="title-c">
-        <h2>Get in touch</h2>
-      </div>
-      <div class="box-c">
+  <section id= "contact-id" class= "contact-section">
+    <div class="title-contact">
+      <h2>Get in touch</h2>
+    </div>
+    <div class="contact-main-container">
+      <div class="contact-inner-container">
         <div class="contact form">
           <h3>Send a Message</h3>
           <form>
@@ -249,7 +161,6 @@
           </form>
         </div>
 
-        
         <div class="contact info">
           <h3>Contact Info</h3>
           <div class="infobox">
@@ -262,21 +173,24 @@
             </div>
             <div>
               <span><ion-icon name="mail"></ion-icon></span>
-              <a href="mailto:admin@ascentphysiotherapy.com">admin@ascentphysiotherapy.com</a>
+              <a href="admin@ascentphysiotherapy.com">ascent
+                physiotherapy
+                .com</a>
+              
             </div>
             <div>
               <span><ion-icon name="call"></ion-icon></span>
+              
+              
               <a href="tel:250-339-1039">250-339-1039</a>
-            </div>
-
-            <!--Socials-->
-            
+            </div>            
+          </div>
+          <div class=" map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5164.048487126793!2d-124.924848!3d49.672682!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54881315b151f51d%3A0x36b86e4431c27661!2s141%20Nordin%20St%2C%20Comox%2C%20BC%20V9M%203N5%2C%20Canada!5e0!3m2!1sen!2sus!4v1700814162991!5m2!1sen!2sus"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
 
-        <div class="contact map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5164.048487126793!2d-124.924848!3d49.672682!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54881315b151f51d%3A0x36b86e4431c27661!2s141%20Nordin%20St%2C%20Comox%2C%20BC%20V9M%203N5%2C%20Canada!5e0!3m2!1sen!2sus!4v1700814162991!5m2!1sen!2sus"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        
       </div>
     </div>
 
@@ -307,53 +221,15 @@
       </div>
     </div>
     <hr class="hr-f">
+    <p class="copyright footer-text">This is a fictional website that was designed and coded as an educational exercise.It is not intended to be seen outside of the class environment.None of the content and images were approved by the business owner!</p>
     <p class="copyright">© Kendra Mulligan Physical Therapist Corp 2010</p>
   </footer>
 
-  <script>
-   
-    document.addEventListener("DOMContentLoaded", function () {
-      // Find the button element
-      var scheduleAppointmentButton = document.getElementById('schedule-appointment-button');
-  
-      // Add a click event listener to the button
-      scheduleAppointmentButton.addEventListener('click', function (event) {
-        
-        event.preventDefault();
-  
-        // Find the target section (Contact section)
-        var contactSection = document.getElementById('contact-section');
-  
-        // Scroll to the target section with smooth behavior
-        contactSection.scrollIntoView({ behavior: 'smooth' });
-      });
-    });
-  </script>
+ 
   
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   
-  <script>
-    const swiper = new Swiper('.swiper', {
-      autoHeight: true,
-      loop: true,
-      
-
-      // If we need pagination
-      pagination: {
-        el: '.swiper-pagination',
-      },
-
-      // Navigation arrows
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-
-    });
-  </script>
+  
 </body>
 </html>
