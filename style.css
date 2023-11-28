@@ -1166,7 +1166,7 @@ form button .fa-solid{
     justify-content: center;
     gap: 1rem;
     padding: 10px;
-    position: relative;
+    
   }
     
   
@@ -1619,7 +1619,7 @@ form button .fa-solid{
 
   /* Services page styles*/
   .hero-container-services{
-    background-image: url(images/Frame12.png);
+    background-image: url(images/Frame11.png);
     background-attachment: fixed;
     background-position: top;
     background-size: cover;
