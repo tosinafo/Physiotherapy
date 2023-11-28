@@ -312,10 +312,6 @@ h1{
 
 
 /*Contact Section*/
-.contact-section{
-  background: linear-gradient(to right, #6B9CA2, #986D3A);
-  
-}
 
 
 .title-contact{
@@ -444,7 +440,7 @@ footer{
   width: 100%;
   background: linear-gradient(to right, #6B9CA2, #986D3A);
   color: #fff;
-  padding: 100px 0 30px;
+  padding: 20px 0 10px;
   font-size: 16px;
   line-height: 20px;
   bottom: 0;
@@ -466,7 +462,7 @@ footer{
 }
 .col-f h3{
   width: fit-content;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
   position: relative;
   font-weight: 500;
   font-family: 'Raleway', sans-serif;
@@ -509,7 +505,7 @@ footer{
   width: 90%;
   border: 0;
   border-bottom: 1px solid #ccc;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 .copyright{
   text-align: center;
@@ -531,7 +527,7 @@ form{
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 form .fa-solid{
   font-size: 18px;
@@ -603,19 +599,42 @@ form button .fa-solid{
     position: fixed;
     width: 100%;
     height: 100vh;
-    background-color:rgba(107, 156, 162,0.2);
+    background-color:rgba(34, 34, 33, 0.2);
     top: 80px;
     right: -100%;
     text-align: center;
     font-weight: 600;
     transition: all .5s;
     
+    
   }
   .menu-icon{
     display: block;
     margin-top: 30px;
   }
+ 
+  .navbar ul li{
+    display: block;
+    margin-bottom: 20px 0;
+    line-height: 20px;
+    background: rgba(34, 34, 33, 0.2);;
+    height: 50px;
+    
+    
 
+    
+  }
+  .navbar ul li a{
+    font-size: 18px;
+    
+    padding: 6px;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 20px;
+    
+    
+    
+  }
 
   /*services*/
   
@@ -848,12 +867,170 @@ form button .fa-solid{
     
 
   }
+  .hero-container-services::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 88%;
+    top: 50;
+    left: 0;
+    background-color: #00000073;
+  }
+  .herodiv-services{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .herodiv-mobile-services{
+    display: none;
+  }
+  .list-items-services{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(27, 168, 187, 0.2);
+    top: 80px;
+    right: -100%;
+    text-align: center;
+    font-weight: 600;
+    transition: all .5s;
+    z-index: 1;
+
+    
+  }
+  .testi_container-services-mobile{
+    max-width: 600px;
+    margin: 30px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 1rem;
+    background: #fff;
+  }
+  .testi_cont_left-services-mobile h1{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #6B9CA2;
+    text-align: center;
+    
+
+
+  }
+  .testi_cont_left-services-mobile p{
+    color: #121313;
+    
+    margin-bottom: 1rem;
+    line-height: 1.3rem;
+
+  }
+  
+  .testi_cont_right-services-mobile{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+    
+  }
+  .card_testi-services-mobile{
+    
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    
+  }
+  .card_testi-services-mobile img{
+    max-width: 230px;
+    border-radius: 100%;
+  }
+  .testi_container-services{
+    display: none;
+  }
+    
+  
  
   
  
   
 
 }
+
+/*medium screens*/
+@media screen and (max-width: 800px){
+  .testi_container-services-mobile{
+    max-width: 600px;
+    margin: 30px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 1rem;
+    background: #fff;
+  }
+  .testi_cont_left-services-mobile h1{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #6B9CA2;
+    text-align: center;
+    
+
+
+  }
+  .testi_cont_left-services-mobile p{
+    color: #121313;
+    
+    margin-bottom: 1rem;
+    line-height: 1.3rem;
+
+  }
+  
+  .testi_cont_right-services-mobile{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+    
+  }
+  .card_testi-services-mobile{
+    
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    
+  }
+  .card_testi-services-mobile img{
+    max-width: 230px;
+    border-radius: 100%;
+  }
+  .testi_container-services{
+    display: none;
+  }
+  
+  
+}
+
 
 
 /*medium screens*/
@@ -912,12 +1089,13 @@ form button .fa-solid{
     position: fixed;
     width: 100%;
     height: 100vh;
-    background-color:rgba(107, 156, 162,0.2);
+    background-color:rgba(34, 34, 33, 0.2);
     top: 80px;
     right: -100%;
     text-align: center;
     font-weight: 600;
     transition: all .5s;
+    
     
   }
   .menu-icon{
@@ -927,13 +1105,25 @@ form button .fa-solid{
  
   .navbar ul li{
     display: block;
-    margin: 50px 0;
+    margin-bottom: 20px 0;
     line-height: 20px;
+    background: rgba(34, 34, 33, 0.2);;
+    height: 50px;
+    
+    
+    
 
     
   }
   .navbar ul li a{
-    font-size: 20px;
+    font-size: 18px;
+    
+    padding: 6px;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 20px;
+    
+    
     
   }
  
@@ -1168,6 +1358,62 @@ form button .fa-solid{
     padding: 10px;
     
   }
+  .services-offered{
+    padding: 8px;
+  }
+  .testi_container-services-mobile{
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 2rem;
+    background: #fff;
+  }
+  .testi_cont_left-services-mobile h1{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #6B9CA2;
+    
+
+
+  }
+  .testi_cont_left-services-mobile p{
+    color: #121313;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    
+
+  }
+  
+  .testi_cont_right-services-mobile{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+    
+  }
+  .card_testi-services-mobile{
+    
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    
+  }
+  .card_testi-services-mobile img{
+    
+    border-radius: 100%;
+  }
+  .testi_container-services{
+    display: none;
+  }
     
   
  
@@ -1176,6 +1422,7 @@ form button .fa-solid{
 
 
 }
+
 
 
 
@@ -1223,8 +1470,9 @@ form button .fa-solid{
   .btn:hover{
     cursor: pointer;
     background: transparent;
-    color:#986D3A;
+    color:#fff;
     border: 1px solid #986D3A;
+    transform: scale(1.1);
   
     
   }
@@ -1608,7 +1856,7 @@ form button .fa-solid{
   /*footer*/
   .row-f{
     width: 80%;
-    margin-left: 200px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -1642,6 +1890,78 @@ form button .fa-solid{
     left: 0;
     background-color: #00000073;
   }
+  .herodiv-mobile-services{
+    display: none;
+  }
+
+  /*services offered*/
+  .contianer_servicespage{
+    display: flex;
+    padding: 30px;
+    gap: 2rem;
+    align-items: center;
+    justify-content: \;
+  }
+
+  .testi_container-services{
+    max-width: 1200px;
+    margin: auto;
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 2rem;
+    background: #fff;
+  }
+  .testi_cont_left-services h1{
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #6B9CA2;
+    
+
+
+  }
+  .testi_cont_left-services p{
+    color: #121313;
+    margin-bottom: 1rem;
+    line-height: 1.3rem;
+
+  }
+  
+  .testi_cont_right-services{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+    
+  }
+  .card_testi-services{
+    
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    
+  }
+  .card_testi-services img{
+    
+    border-radius: 100%;
+  }
+  .testi_container-services-mobile{
+    display: none;
+  }
+ 
+
+
+
+
+  
+  
   
   
 
