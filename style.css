@@ -216,10 +216,10 @@ h1{
   font-size: 18px;
   line-height: 60px;
   color: #6B9CA2;
-  width: 60px;
+  width: 200px;
   height: 60px;
-  border-radius: 50%;
-  background: #F5F5F5;
+  
+  
   text-align: center;
   
 }
@@ -299,7 +299,7 @@ h1{
 }
 .card_testi_details h4{
   text-align: right;
-  color: #6B9CA2;
+  color: #0e3959;
   font-size: 1rem;
   font-weight: 500;
 }
@@ -712,13 +712,13 @@ form button .fa-solid{
   
   }
   .card_testi_details p{
-    
+    line-height: 1.7rem;
     margin-bottom: 1rem;
   
   }
   .card_testi_details h4{
     text-align: right;
-    color: #6B9CA2;
+    color: #0e3959;
     font-size: 1rem;
     font-weight: 500;
   }
