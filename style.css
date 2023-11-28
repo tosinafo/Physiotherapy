@@ -588,6 +588,7 @@ form button .fa-solid{
     gap: 1.5rem;
     padding: 10px;
   }
+  
   .background-image{
     background-image: url(images/Frame\ 5.png);
     background-size: cover;
@@ -827,6 +828,26 @@ form button .fa-solid{
   .hr-f{
     display: none;
   }
+
+  /*Services page styles mobile*/
+  .hero-container-services{
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 10px;
+  }
+  .background-image-services{
+    background-image: url(images/Frame\ 5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    
+
+  }
  
   
  
@@ -876,6 +897,7 @@ form button .fa-solid{
   
     
   }
+  
   
   .background-image{
     background-image: url(images/Frame\ 5.png);
@@ -1119,6 +1141,35 @@ form button .fa-solid{
     justify-content: space-between;
 
   }
+
+
+
+  /*Services page*/
+  .background-image-services{
+    background-image: url(images/Frame12.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    
+
+  }
+  .hero-container-services{
+    
+    background-image: url(images/Frame12.png);
+    background-position: left;
+    height: 88vh;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 10px;
+    position: relative;
+  }
+    
+  
  
   
   
@@ -1177,6 +1228,7 @@ form button .fa-solid{
   
     
   }
+
   
   .hero-container{
     background-image: url(images/Frame\ 5.png);
@@ -1562,6 +1614,33 @@ form button .fa-solid{
     align-items: flex-start;
     justify-content: space-between;
   
+  }
+
+
+  /* Services page styles*/
+  .hero-container-services{
+    background-image: url(images/Frame12.png);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 88vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 10px;
+    position: relative;
+  }
+  .hero-container-services::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #00000073;
   }
   
   
