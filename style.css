@@ -869,7 +869,15 @@ form button .fa-solid{
     
 
   }
-  
+  .hero-container-services::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 90.5%;
+    top: 50;
+    left: 0;
+    background-color: #00000073;
+  }
   .herodiv-services{
     display: flex;
     align-items: center;
@@ -1086,7 +1094,15 @@ form button .fa-solid{
     
 
   }
- 
+  .hero-container-services::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 50;
+    left: 0;
+    background-color: #00000073;
+  }
   .herodiv-services{
     display: flex;
     align-items: center;
@@ -1270,7 +1286,16 @@ form button .fa-solid{
   }
   
  
-
+  .hero-container-services::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 90.5%;
+    top: 50;
+    left: 0;
+    background-color: #00000073;
+  }
+  
   
  
   .herodiv-services{
