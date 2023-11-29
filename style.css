@@ -852,13 +852,13 @@ form button .fa-solid{
 
   /*Services page styles mobile*/
   .hero-container-services{
-    height: 88vh;
+    
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     gap: 1.5rem;
-    padding: 10px;
+    
   }
   .background-image-services{
     background-image: url(images/Frame\ 5.png);
@@ -1077,13 +1077,13 @@ form button .fa-solid{
  
  
   .hero-container-services{
-    height: 88vh;
+    
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     gap: 1.5rem;
-    padding: 10px;
+    
   }
   .background-image-services{
     background-image: url(images/Frame\ 5.png);
@@ -1273,7 +1273,7 @@ form button .fa-solid{
     flex-direction: column;
     justify-content: center;
     gap: 1.5rem;
-    padding: 10px;
+    
   }
   .background-image-services{
     background-image: url(images/Frame\ 5.png);
@@ -1290,7 +1290,7 @@ form button .fa-solid{
     content: '';
     position: absolute;
     width: 100%;
-    height: 90.5%;
+    height: 90%;
     top: 50;
     left: 0;
     background-color: #00000073;
@@ -1638,20 +1638,7 @@ form button .fa-solid{
     
 
   }
-  .hero-container-services{
-    
-    background-image: url(images/Frame12.png);
-    background-position: left;
-    height: 88vh;
-    
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-    padding: 10px;
-    
-  }
+
   .services-offered{
     padding: 8px;
   }
