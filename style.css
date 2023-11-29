@@ -852,7 +852,7 @@ form button .fa-solid{
 
   /*Services page styles mobile*/
   .hero-container-services{
-    
+    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -873,7 +873,7 @@ form button .fa-solid{
     content: '';
     position: absolute;
     width: 100%;
-    height: 90.5%;
+    height: 100%;
     top: 50;
     left: 0;
     background-color: #00000073;
@@ -1077,7 +1077,7 @@ form button .fa-solid{
  
  
   .hero-container-services{
-    
+    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -1098,7 +1098,7 @@ form button .fa-solid{
     content: '';
     position: absolute;
     width: 100%;
-    height: 90%;
+    height: 100%;
     top: 50;
     left: 0;
     background-color: #00000073;
@@ -1267,7 +1267,7 @@ form button .fa-solid{
 /*medium screens*/
 @media only screen and (max-width: 1000px){
   .hero-container-services{
-    height: 88vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -1290,9 +1290,11 @@ form button .fa-solid{
     content: '';
     position: absolute;
     width: 100%;
-    height: 90%;
-    top: 50;
+    height: 103%;
+    top: 80px;
     left: 0;
+    
+    
     background-color: #00000073;
   }
   
