@@ -331,6 +331,10 @@ h1{
   font-size: 1.4em;
   margin-bottom: 10px;
 }
+.opening-hours{
+
+
+}
 
 /*form*/
 .formbox{
@@ -363,7 +367,7 @@ h1{
   outline: none;
   border: 1px solid #333;
   resize: none;
-  min-height: 220px;
+  min-height: 100px;
   margin-bottom: 10px;
 }
 .inputbox input[type="submit"]
@@ -376,8 +380,13 @@ h1{
   font-weight: 500;
   cursor: pointer;
   padding: 14px 15px;
+  transition: background-color 650ms;
 }
+.inputbox input[type="submit"]:hover{
+  color: #0e3959;
+  background-color: #6B9CA2;
 
+}
 .inputbox::placeholder{
   color: #999;
 }
@@ -427,6 +436,78 @@ h1{
   width: 100%;
   height: 100%;
   
+}
+
+
+
+
+/* Table styles */
+
+.operating-hours {
+  width: 70%; 
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.operating-hours th, .operating-hours td {
+  border: 1px solid #6B9CA2; 
+  padding: 10px;
+  text-align: left;
+}
+
+/* Header row styles */
+.operating-hours th {
+  background-color: #6B9CA2; /* Highlight color: sky blue */
+  color: #FFFFFF; /* Text color: white */
+}
+
+/* Alternate row background color for better readability */
+.operating-hours tbody tr:nth-child(even) {
+  background-color: #F5F5F5; /* Neutral color: light gray */
+}
+
+/* Hover effect on rows */
+.operating-hours tbody tr:hover {
+  background-color: #3f3e3d; /* Highlight color on hover */
+  color: #FFFFFF;
+}
+.location-images{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  
+  
+}
+.location-images img{
+  border-radius: 10px;
+}
+.location-images img:hover{
+  border-radius: 10px;
+  transform: scale(1.1);
+  transition: .3s;
+}
+.facilities{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.facilities-col{
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  padding: 10px;
+}
+.facilities-col img{
+  width: 100%;
+  border-radius: 10px;
+}
+.row-image-facilities{
+  display: flex;
 }
 
 
@@ -1565,6 +1646,11 @@ form button .fa-solid{
   hr{
     border-top: 1px solid #e7e7e773;
   }
+  .contact-section{
+    background: linear-gradient(to right, #6B9CA2, #986D3A);
+   
+
+  }
   
   .title-contact{
     
@@ -1685,6 +1771,13 @@ form button .fa-solid{
   .map iframe{
     width: 100%;
     height: 100%;
+    
+  }
+  .operating-hours {
+    width: 100%; 
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
   }
   .row-f{
@@ -2238,23 +2331,24 @@ form button .fa-solid{
   
 
 /*contact section*/
-  .contact-section{
-    background: linear-gradient(to right, #6B9CA2, #986D3A);
-   
-
-  }
+  
+ 
   .contact-main-container{
     display: flex;
     justify-content: center;
     align-items: center;
     
 
+  }.title-contact h2{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
   .title-contact{
     
     text-align: center;
     font-size: 2em;
-    color: #fff;
+    color: #A35813;
+    font-family: 'Raleway', sans-serif;
   }
  
   .contact{
@@ -2305,6 +2399,11 @@ form button .fa-solid{
   .info{
     background: #0e3959;
   
+  }
+  .opening-hours h2{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
   }
   
  
